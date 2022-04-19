@@ -9,7 +9,11 @@ int main() {
        // remainder contains the last digit
         remainder = originalNum % 10;
         
+<<<<<<< HEAD
        jaffa += remainder * remainder * remainder;
+=======
+       result += remainder * remainder * remainder;
+>>>>>>> 8f2cb173b0debd47a43611d3ff7d70a914c53c85
         
        // removing last digit from the orignal number
        originalNum /= 10;
